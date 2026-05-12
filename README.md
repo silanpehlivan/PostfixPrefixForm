@@ -1,8 +1,6 @@
-
-```markdown
 # 🧮 Expression Converter: Infix, Postfix & Prefix
 
-Bu proje, matematiksel ifadelerin **Infix**, **Postfix** ve **Prefix** gösterim biçimleri arasındaki dönüşümü sağlayan ve bu süreçleri **C# Windows Forms** arayüzü ile görselleştiren bir algoritma uygulamasıdır.
+Bu proje, matematiksel ifadelerin **Infix**, **Postfix** ve **Prefix** gösterim biçimleri arasındaki dönüşümünü sağlayan ve bu süreçleri **C# Windows Forms** arayüzü ile görselleştiren bir algoritma uygulamasıdır.
 
 ---
 
@@ -11,19 +9,19 @@ Bu proje, matematiksel ifadelerin **Infix**, **Postfix** ve **Prefix** gösterim
 - 🪟 **Arayüz:** Windows Forms (WinForms)
 - 🧠 **Veri Yapıları:** Stack (Yığın) tabanlı veri işleme
 - 🔄 **Kapsam:** Infix ifadeden Postfix ve Prefix dönüşümleri
-- ⚙️ **Hedef Framework:** .NET 8.0 (Windows)
+- ⚙️ **Framework:** .NET 8.0 (Windows)
 
 ---
 
 ## 🎯 Öne Çıkan İşlevler
-- 🔄 **Dönüşüm Algoritmaları:**  
-  Operatör önceliğine göre infix ifadelerin postfix ve prefix forma dönüştürülmesi
+- 🔄 **Dönüşüm Algoritmaları**  
+  Operatör önceliğine göre infix ifadelerin postfix ve prefix forma dönüştürülmesi  
 
-- 👀 **Görsel Takip:**  
-  Windows Forms arayüzü ile dönüşüm adımlarının kullanıcı dostu şekilde görüntülenmesi
+- 👀 **Görsel Takip**  
+  Windows Forms arayüzü ile dönüşüm adımlarının kullanıcı dostu şekilde görüntülenmesi  
 
-- 🚨 **Hata Yönetimi:**  
-  Geçersiz matematiksel ifadelerin tespit edilmesi ve kullanıcıya bildirilmesi
+- 🚨 **Hata Yönetimi**  
+  Geçersiz matematiksel ifadelerin tespit edilmesi ve kullanıcıya bildirilmesi  
 
 ---
 
@@ -36,7 +34,7 @@ Bu proje, matematiksel ifadelerin **Infix**, **Postfix** ve **Prefix** gösterim
 ---
 
 ## 📁 Proje Yapısı
-```
+```plaintext
 PostfixPrefixForm-master/
 ├── Form1.cs              # Ana uygulama mantığı ve dönüşüm algoritmaları
 ├── Form1.Designer.cs     # Form arayüz tasarımı kodları
@@ -47,9 +45,6 @@ PostfixPrefixForm-master/
 ├── LICENSE               # Lisans bilgileri
 └── README.md             # Proje dökümantasyonu
 ```
-
----
-
 ## 🚀 Kurulum ve Kullanım
 1. 📥 Projeyi klonlayın:
    ```bash
@@ -68,4 +63,3 @@ Bu proje, **LICENSE** dosyasında belirtilen lisans koşulları altında yayınl
 
 ## 👨‍💻 Geliştirici
 **Şilan Pehlivan**
-```
