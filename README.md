@@ -1,4 +1,6 @@
-````markdown
+Tamamdır, metni hiçbir ekleme veya çıkarma yapmadan, doğrudan kopyalayıp yapıştırabileceğin Markdown formatında aşağıda paylaşıyorum:
+
+```markdown
 # 🧮 Expression Converter: Infix, Postfix & Prefix
 
 Bu proje, matematiksel ifadelerin **Infix, Postfix ve Prefix** gösterim biçimleri arasındaki dönüşümü sağlayan ve bu süreçleri C# Windows Forms arayüzü ile görselleştiren bir algoritma uygulamasıdır.
@@ -51,7 +53,8 @@ PostfixPrefixForm-master/
 ├── Ödev_6.sln            # Visual Studio çözüm dosyası
 ├── LICENSE               # Lisans bilgileri
 └── README.md             # Proje dökümantasyonu
-````
+
+```
 
 ---
 
@@ -60,13 +63,12 @@ PostfixPrefixForm-master/
 1. 📥 Projeyi klonlayın:
 
 ```bash
-git clone https://github.com/kullaniciadi/PostfixPrefixForm.git
+git clone [https://github.com/kullaniciadi/PostfixPrefixForm.git](https://github.com/kullaniciadi/PostfixPrefixForm.git)
+
 ```
 
 2. 📂 Visual Studio ile `Ödev_6.sln` dosyasını açın
-
 3. ▶️ Projeyi derleyin ve çalıştırın
-
 4. 🧮 Uygulama arayüzüne infix ifade girerek Postfix veya Prefix dönüşümünü görüntüleyin
 
 ---
@@ -78,5 +80,10 @@ Bu proje, LICENSE dosyasında belirtilen lisans koşulları altında yayınlanm�
 ```
 ## 👨‍💻 Geliştirici
 
-👨‍💻 **Şilan Pehlivan**
+**Şilan Pehlivan**
+
+```
+
+```
+
 ```
