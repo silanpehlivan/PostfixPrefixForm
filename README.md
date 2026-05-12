@@ -56,10 +56,10 @@ PostfixPrefixForm-master/
 
 ---
 
-## 📄 Lisans
-Bu proje, **LICENSE** dosyasında belirtilen lisans koşulları altında yayınlanmıştır.
+## 📜 Lisans
 
----
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
-## 👨‍💻 Geliştirici
-**Şilan Pehlivan**
+## 👩‍💻 Geliştirici
+
+Şilan Pehlivan
