@@ -24,6 +24,19 @@ Infix, postfix ve prefix gösterimleri arasındaki dönüşümü Windows Forms a
 
 C# · Windows Forms
 
+## Teknik yaklaşım
+
+Form olayları infix girdisini yığın tabanlı dönüştürme metotlarına iletir; sonuçlar aynı arayüzde gösterilir. Algoritma ile kullanıcı etkileşimi birlikte incelenebilir.
+
+## Kodu incelemeye başlayın
+
+- [Form1.cs](Form1.cs)
+- [Program.cs](Program.cs)
+
+## Kapsam ve sınırlar
+
+Karakter bazlı dönüşüm bir genel amaçlı matematik parser’ı olarak değerlendirilmemelidir.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
