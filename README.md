@@ -2,125 +2,30 @@
 
 # Expression Converter
 
-### İfade dönüşümünü ekranda gör.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3500&pause=2200&color=38bdf8&background=0D1117&center=true&vCenter=true&width=760&height=76&lines=%C4%B0fade%20d%C3%B6n%C3%BC%C5%9F%C3%BCm%C3%BCn%C3%BC%20ekranda%20g%C3%B6r." alt="İfade dönüşümünü ekranda gör." width="760" />
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
-![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=for-the-badge)
-[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
+<br />
+
+<img alt="C#" src="https://img.shields.io/badge/C%23-38bdf8?style=for-the-badge" />
+<img alt="Windows Forms" src="https://img.shields.io/badge/Windows%20Forms-2563eb?style=for-the-badge" />
+
+<br /><br />
 
 Infix, postfix ve prefix gösterimleri arasındaki dönüşümü Windows Forms arayüzünde sunan algoritma uygulaması.
 
-**Görsel ifade dönüşümü**
+<br />
 
-[Projeyi keşfet](https://github.com/silanpehlivan/PostfixPrefixForm/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
+**Infix → postfix ve prefix dönüşümü** &nbsp; · &nbsp; **Operatör önceliğine göre ifade işleme** &nbsp; · &nbsp; **Kullanıcı arayüzü ve hatalı ifade bildirimleri**
+
+<br /><br />
+
+[![Projeyi keşfet](https://img.shields.io/badge/PROJEYİ_KEŞFET-2563eb?style=for-the-badge)](https://github.com/silanpehlivan/PostfixPrefixForm/tree/master)
+[![Kurulum](https://img.shields.io/badge/KURULUM_&_TEKNİK_NOTLAR-334155?style=for-the-badge)](PROJECT_GUIDE.md)
 
 </div>
 
 ---
 
-## İçeride neler var?
-
-- **01** · Infix → postfix ve prefix dönüşümü
-- **02** · Operatör önceliğine göre ifade işleme
-- **03** · Kullanıcı arayüzü ve hatalı ifade bildirimleri
-
-## Projeyi çalıştırmak ve incelemek
-
-<details>
-<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
-
-## Öne Çıkanlar
-
-- Infix → postfix ve prefix dönüşümü
-- Operatör önceliğine göre ifade işleme
-- Kullanıcı arayüzü ve hatalı ifade bildirimleri
-
-## Teknolojiler
-
-C# · Windows Forms
-
-### Teknik yaklaşım
-
-Form olayları infix girdisini yığın tabanlı dönüştürme metotlarına iletir; sonuçlar aynı arayüzde gösterilir. Algoritma ile kullanıcı etkileşimi birlikte incelenebilir.
-
-### Kodu incelemeye başlayın
-
-- [Form1.cs](Form1.cs)
-- [Program.cs](Program.cs)
-
-### Kapsam ve sınırlar
-
-Karakter bazlı dönüşüm bir genel amaçlı matematik parser’ı olarak değerlendirilmemelidir.
-
-
-
-Bu proje, matematiksel ifadelerin **Infix**, **Postfix** ve **Prefix** gösterim biçimleri arasındaki dönüşümünü sağlayan ve bu süreçleri **C# Windows Forms** arayüzü ile görselleştiren bir algoritma uygulamasıdır.
-
----
-
-## Teknik Özellikler
-- **Dil:** C#
-- **Arayüz:** Windows Forms (WinForms)
-- **Veri Yapıları:** Stack (Yığın) tabanlı veri işleme
-- **Kapsam:** Infix ifadeden Postfix ve Prefix dönüşümleri
-- **Framework:** .NET 8.0 (Windows)
-
----
-
-## Öne Çıkan İşlevler
-- **Dönüşüm Algoritmaları**  
-  Operatör önceliğine göre infix ifadelerin postfix ve prefix forma dönüştürülmesi  
-
-- **Görsel Takip**  
-  Windows Forms arayüzü ile dönüşüm adımlarının kullanıcı dostu şekilde görüntülenmesi  
-
-- **Hata Yönetimi**  
-  Geçersiz matematiksel ifadelerin tespit edilmesi ve kullanıcıya bildirilmesi  
-
----
-
-## Kazanımlar
-- Stack (yığın) veri yapısının algoritmalarda etkin kullanımı  
-- WinForms ile backend mantığının entegrasyonu  
-- Matematiksel ifade ayrıştırma (parsing) becerisi  
-- Operatör önceliği ve hiyerarşi yönetimi  
-
----
-
-## Proje Yapısı
-```plaintext
-PostfixPrefixForm-master/
-├── Form1.cs              # Ana uygulama mantığı ve dönüşüm algoritmaları
-├── Form1.Designer.cs     # Form arayüz tasarımı kodları
-├── Form1.resx            # Form kaynak dosyaları
-├── Program.cs            # Uygulama giriş noktası
-├── Ödev_6.csproj         # Proje yapılandırma dosyası
-├── Ödev_6.sln            # Visual Studio çözüm dosyası
-├── LICENSE               # Lisans bilgileri
-└── README.md             # Proje dökümantasyonu
-```
-## Kurulum ve Kullanım
-1.  Projeyi klonlayın:
-   ```bash
-   git clone https://github.com/silanpehlivan/PostfixPrefixForm.git
-   ```
-2.  Visual Studio ile **Ödev_6.sln** dosyasını açın  
-3.  Projeyi derleyin ve çalıştırın  
-4.  Uygulama arayüzüne infix ifade girerek Postfix veya Prefix dönüşümünü görüntüleyin  
-
----
-
-
-
-
-</details>
-
----
-
 <div align="center">
-
-**© 2024 Şilan PEHLİVAN**
-
-Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
-
+<sub>© 2024 Şilan PEHLİVAN · <a href="LICENSE">MIT lisansı</a></sub>
 </div>
